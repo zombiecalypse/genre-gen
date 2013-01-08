@@ -1,0 +1,48 @@
+GENRE ::= PREFIX GENRE | GENRE GENRE | PRIMITIVE-GENRE
+
+PREFIX ::=  NATIONALITY | STYLE | RELATION
+
+NATIONALITY ::= `brit` 
+		| `J` 
+		| `K`
+
+STYLE ::= `acid`
+  | `celtic` 
+  | `christian` 
+  | `dark` 
+  | `garage` 
+  | `gothic` 
+	| `gypsy` 
+	| `hard` 
+	| `melodic` 
+	| `pagan` 
+	| `psychadelic` 
+  | `speed` 
+RELATION ::= `alternative` 
+  | `avant-garde` 
+  | `classic`  
+  | `indie` 
+  | `new`  
+  | `nu` 
+  | `post` 
+  | `progressive`
+
+PRIMITIVE-GENRE ::= `pop` 
+  | `blues` 
+  | `classical` 
+  | `core`
+  | `country` 
+  | `dance` 
+  | `disco` 
+  | `electro` 
+  | `folk` 
+  | `funk` 
+  | `gangsta` 
+  | `grunge` 
+  | `hip hop` 
+  | `industral` 
+  | `metal` 
+  | `opera` 
+  | `punk` 
+  | `regae` 
+  | `rock` 
